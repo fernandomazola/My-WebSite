@@ -1,0 +1,242 @@
+/*CSS STYLES FOR PAGE*/
+html, body {
+  height: 100%; }
+
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row; }
+  .container .s-left {
+    width: 30%;
+    background-image: linear-gradient(to bottom, #CC3866, #802240);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white; }
+    .container .s-left .my-img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+      background-color: white;
+      margin: 1rem auto 1.5rem auto; }
+      .container .s-left .my-img img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 7px solid white; }
+    .container .s-left .my-name {
+      text-transform: uppercase;
+      font-size: 2.8rem;
+      line-height: 2.19rem;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 1.2rem; }
+      .container .s-left .my-name p {
+        font-weight: 1;
+        font-size: 2.3rem;
+        margin-bottom: 1.2rem; }
+        .container .s-left .my-name p span {
+          font-weight: 500;
+          font-size: 3rem; }
+      .container .s-left .my-name hr {
+        border: none;
+        height: 2px;
+        width: 10%;
+        background-color: white; }
+    .container .s-left .my-objective {
+      text-transform: uppercase;
+      font-weight: 100;
+      text-align: center;
+      margin-bottom: 1.8rem; }
+    .container .s-left .my-apresentation {
+      font-weight: 100;
+      padding: 1rem;
+      margin-bottom: 1.8rem; }
+      .container .s-left .my-apresentation p::after {
+        content: '|';
+        margin-left: 5px;
+        opacity: 1;
+        animation: pisca .7s infinite; }
+
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1; }
+  50% {
+    opacity: 0; } }
+    .container .s-left .my-list {
+      padding-left: 1rem; }
+      .container .s-left .my-list li {
+        margin-bottom: 1rem; }
+      .container .s-left .my-list i {
+        border: 2px solid white;
+        padding: 0.5rem;
+        border-radius: 50%;
+        margin-right: 1rem; }
+  .container .s-right {
+    width: 70%;
+    background-image: linear-gradient(to bottom, #e0e0e0, #c0c0c0);
+    padding: 2rem 2rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    color: #CC3866;
+    height: auto; }
+    .container .s-right .my-experience {
+      margin-bottom: 4rem; }
+      .container .s-right .my-experience h1 {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 2rem; }
+        .container .s-right .my-experience h1 i {
+          font-size: 2rem;
+          border: 2px solid #CC3866;
+          padding: 0.5rem;
+          border-radius: 50%;
+          margin-right: 1rem; }
+      .container .s-right .my-experience ul li {
+        padding: 0 4.4rem 0 4.4rem;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        align-items: center; }
+        .container .s-right .my-experience ul li .circle-year {
+          display: flex;
+          align-items: center;
+          line-height: 1rem;
+          justify-content: center;
+          text-align: center;
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #CC3866;
+          border-radius: 50%;
+          padding: 2rem;
+          color: white;
+          margin-right: 1rem; }
+          .container .s-right .my-experience ul li .circle-year span {
+            font-weight: bold;
+            font-size: 1.5rem; }
+      .container .s-right .my-experience .d-info h3 {
+        text-transform: uppercase; }
+      .container .s-right .my-experience .d-info p {
+        color: black; }
+    .container .s-right .my-education {
+      margin-bottom: 4rem; }
+      .container .s-right .my-education h1 {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 2rem; }
+        .container .s-right .my-education h1 i {
+          font-size: 2rem;
+          border: 2px solid #CC3866;
+          padding: 0.5rem;
+          border-radius: 50%;
+          margin-right: 1rem; }
+      .container .s-right .my-education ul li {
+        padding: 0 4.4rem 0 4.4rem;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        align-items: center; }
+        .container .s-right .my-education ul li .circle-year {
+          display: flex;
+          align-items: center;
+          line-height: 1rem;
+          justify-content: center;
+          text-align: center;
+          width: 2.5rem;
+          height: 2.5rem;
+          border: 2px solid #CC3866;
+          border-radius: 50%;
+          padding: 2rem;
+          color: white;
+          margin-right: 1rem; }
+          .container .s-right .my-education ul li .circle-year i {
+            font-size: 1.9rem;
+            color: #CC3866; }
+      .container .s-right .my-education .d-info h3 {
+        text-transform: uppercase; }
+      .container .s-right .my-education .d-info p {
+        color: black; }
+    .container .s-right .my-certificate {
+      margin-bottom: 4rem; }
+      .container .s-right .my-certificate h1 {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 2rem; }
+        .container .s-right .my-certificate h1 i {
+          font-size: 2rem;
+          border: 2px solid #CC3866;
+          padding: 0.5rem;
+          border-radius: 50%;
+          margin-right: 1rem; }
+      .container .s-right .my-certificate ul li {
+        padding: 0 4.4rem 0 4.4rem;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        align-items: center; }
+        .container .s-right .my-certificate ul li .circle-year {
+          display: flex;
+          align-items: center;
+          line-height: 1rem;
+          justify-content: center;
+          text-align: center;
+          width: 2.5rem;
+          height: 2.5rem;
+          border: 2px solid #CC3866;
+          border-radius: 50%;
+          padding: 2rem;
+          color: white;
+          margin-right: 1rem; }
+          .container .s-right .my-certificate ul li .circle-year i {
+            font-size: 1.9rem;
+            color: #CC3866; }
+      .container .s-right .my-certificate .d-info h3 {
+        text-transform: uppercase; }
+      .container .s-right .my-certificate .d-info p {
+        color: black; }
+    .container .s-right .my-skills {
+      margin-bottom: 4rem; }
+      .container .s-right .my-skills h1 {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 2rem; }
+        .container .s-right .my-skills h1 i {
+          font-size: 2rem;
+          border: 2px solid #CC3866;
+          padding: 0.5rem;
+          border-radius: 50%;
+          margin-right: 1rem; }
+      .container .s-right .my-skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 0 4.4rem 0 4.4rem; }
+        .container .s-right .my-skills ul .box-skills {
+          width: 110px;
+          text-align: center;
+          margin-right: 2rem;
+          margin-bottom: 2rem; }
+          .container .s-right .my-skills ul .box-skills .chart {
+            position: relative;
+            width: 110px;
+            height: 110px;
+            text-align: center;
+            line-height: 110px; }
+            .container .s-right .my-skills ul .box-skills .chart canvas {
+              position: absolute;
+              top: 0;
+              left: 0; }
+        .container .s-right .my-skills ul .box-skills:last-child {
+          margin-right: 0; }
